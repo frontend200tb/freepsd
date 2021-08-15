@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="freepsd, Иван Каширин, Ivan Kashirin, верстка сайта, учебный проект">
+    <meta name="description" content="Иван Каширин верстка сайта учебный проект freepsd, от 0 до 1 Вадим Прокопчук верстка сайта с нуля">
+    <meta name="author" content="Иван Каширин">
+    <meta name="copyright" content="200TB Web Studio">
+
+    <title>Иван Каширин freepsd</title>
+
+    <!-- Одинаковые стили для браузеров -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Подключение шрифтов -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Форма FancyBox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- Слайдер Slick -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Стили для формы -->
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <!-- Наша таблица стилей -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Мобильная версия -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <!-- header__contacts это родительский класс для элемента header__btn
+                со свойством float , стилизуется чтобы header__btn не выбивался из потока -->
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel: +79304046581">+7 (930) 404-65-81</a>
+                    <a class="header__email" href="mailto: frontend200tb@mail.ru">frontend200tb@mail.ru</a>
+                    <a class="header__btn" data-fancybox data-src="#modal" href="javascript:;" href="#">Бесплатная
+                        консультация</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+
+
+    <!-- slider -->
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            Разработка сайтов
+                        </div>
+                        <div class="slider__text">
+                            Сайт – это виртуальный офис, работающий круглосуточно и без выходных. В любой момент пользователь может зайти и получить нужную ему информацию. Вместо того чтобы подолгу рассказывать обо всех деталях, можно сделать это один раз на сайте.
+                        </div>
+                        <a class="slider__btn default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Оставить заявку
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            Верстка сайта по PSD макету
+                        </div>
+                        <div class="slider__text">
+                            Верстка веб сайта – это процесс преобразования дизайна (графического макета в формате psd, xd, figma) в понятную для браузеров html-разметку. На данном этапе не затрагивается глобальная работа сайта и взаимодействие его страниц. Авторизация, оформление заказа, регистрация, переходы по страницам – все эти функции работать не будут.
+                        </div>
+                        <a class="slider__btn default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Оставить заявку
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            Собственный сайт
+                        </div>
+                        <div class="slider__text">
+                            Собственный сайт — гарантия стабильной работы компании и
+                            получения прибыли в любой ситуации. Ваши клиенты есть в
+                            онлайне, они готовы взаимодействовать и совершать покупки.
+                        </div>
+                        <a class="slider__btn default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Оставить заявку
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /slider -->
+
+
+    <!-- services -->
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <div class="services__title-box">
+                    <div class="services__title">
+                        Наши услуги
+                    </div>
+                    <div class="services__text">
+                        Верстка сайта - это заключительный этам разработки веб-ресурса, создание его структуры. Именно на данной стадии когда все функциональные компоненты находятся в полной готовности, определяется то, каким образом будут отображены текст и графика.
+                    </div>
+                </div>
+                <div class="services__btn">
+                    <a href="#">
+                        Показать все услуги
+                    </a>
+                </div>
+            </div>
+            <div class="services__items">
+
+                <div class="services__item">
+                    <img src="img/services-1.png" alt="">
+                    <div class="services__item-title">
+                        Сайт визитка
+                    </div>
+                    <div class="services__item-text">
+                        Создание сайта-визитки и его продвижение – самый быстрый и экономичный вариант для бизнеса.
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a class="default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <img src="img/services-2.png" alt="">
+                    <div class="services__item-title">
+                        Поддержка сайтов
+                    </div>
+                    <div class="services__item-text">
+                        Внедрим на сайт новые блоки и функционал по мере его
+                        развития, поможем с обновлением контента в активных
+                        разделах, разберемся с техническими проблемами.
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a class="default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <img src="img/services-3.png" alt="">
+                    <div class="services__item-title">
+                        Интернет-магазины
+                    </div>
+                    <div class="services__item-text">
+                        Создадим интернет-магазин, учитывающий особенности ваших
+                        товаров и полностью готовый к онлайн-продажам.
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a class="default__btn" data-fancybox data-src="#modal" href="javascript:;">
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /services -->
+
+    <!-- about -->
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__title">
+                    О компании
+                </div>
+                <div class="about__text">
+                    Веб студия 200 TERABYTE основана в 2021 году и только начинает занимаеться разработкой сайтов. Уже можно заказать верстку сайта по готовому макету или сайта похожему на сайт конкурентов.   
+                </div>
+                <a class="about__btn default__btn"  data-fancybox data-src="#modal" href="javascript:;">
+                    Узнать больше
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- /about -->
+
+
+    <!-- form -->
+    <section class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__content">
+
+                    <div class="form__title-box">
+                        <div class="form__title">
+                            Получить консультацию
+                        </div>
+                        <div class="form__text">
+                            Студия и ее разработчики постоянно обучаются новым навыкам и приобретают новый опыт. Получите актуальную информацию об услугах на текущий момент.
+                        </div>
+                    </div>
+
+                    <div class="form__box">
+                        <form action="">
+                            <div class="form__box-inner">
+                                <div class="form__box-left">
+
+                                    <label>
+                                        E-mail
+                                        <input type="text">
+                                    </label>
+
+                                    <label>
+                                        Контактный телефон
+                                        <input type="text">
+                                    </label>
+
+                                    <label>
+                                        ФИО
+                                        <input type="text">
+                                    </label>
+
+                                    <label>
+                                        Тема вопроса
+                                        <select>
+                                            <option>-------</option>
+                                            <option>-------</option>
+                                            <option>-------</option>
+                                            <option>-------</option>
+                                        </select>
+                                    </label>
+
+                                </div>
+
+                                <div class="form__box-right">
+
+                                    <label>
+                                        Сообщение
+                                        <textarea></textarea>
+                                    </label>
+
+                                    <button class="default__btn" type="submit"  data-fancybox data-src="#modal" href="javascript:;">Получить консультацию</button>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /form -->
+
+
+    <!-- advantages -->
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+
+                <div class="advantages-item">
+                    <div class="advantages__title">
+                        Сайт-визитка
+                    </div>
+                    <div class="advantages__text">
+                        Создание сайта-визитки и его продвижение – самый быстрый и экономичный вариант для бизнеса.
+                    </div>
+                </div>
+
+                <div class="advantages-item">
+                    <div class="advantages__title">
+                        Landing Page
+                    </div>
+                    <div class="advantages__text">
+                        Лендинги призваны кратко и ёмко доносить суть торгового предложения и не отпускать потенциального клиента со страницы. Позволяют не только установить обратную связь с посетителями, но и собрать данные для дальнейших контактов
+                    </div>
+                </div>
+
+                <div class="advantages-item">
+                    <div class="advantages__title">
+                        Интернет-магазин
+                    </div>
+                    <div class="advantages__text">
+                        Формат интернет-магазина подойдёт компаниям, специализирующимся на продаже товаров.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /advantages -->
+
+
+    <!-- news -->
+    <section class="news">
+        <div class="container">
+
+            <!-- Заголовок блока news -->
+            <div class="news__top">
+                <div class="news__title-box">
+                    <div class="news__title">
+                        Новости компании
+                    </div>
+                    <div class="news__text">                        
+                        Создаем сайты, которые отлично выглядят и работают на смартфонах, планшетах и настольных компьютерах. Или адаптируем уже готовые сайты.
+                    </div>
+                </div>
+                <div class="news__btn">
+                    <a href="#">
+                        Открыть все новости
+                    </a>
+                </div>
+            </div>
+            <!-- /Заголовок блока news -->
+
+            <!-- Содержимое блока news -->
+            <div class="news__inner">
+
+                <div class="news__slider">
+                    <div class="news__slider-inner">
+
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Семантические теги
+                            </div>
+                            <div class="news__slider-text">                                
+                                Семантические теги помогают браузеру и поисковым ботам лучше понимать какой контент в них находится, что влияет на оптимизацию.
+                            </div>
+                            <div class="news__slider-author">
+                                Иван Каширин, генеральный директор компании 200 Terabyte
+                            </div>
+                        </div>
+
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Методология БЭМ
+                            </div>
+                            <div class="news__slider-text">
+                                Созданая Яндексом методология написания кода, которая позволяет верстать сайты быстро, а поддерживать долгие годы.
+                            </div>
+                            <div class="news__slider-author">
+                                Иван Каширин, генеральный директор компании 200 Terabite
+                            </div>
+                        </div>
+
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Кросбраузерность
+                            </div>
+                            <div class="news__slider-text">
+                                Каждый браузер уникален и воспринимает код "по-своему". Кросбраузерная верстка делает так, что ваш сайт будет выглядеть и работать одинаково в разных бразуерах.
+                            </div>
+                            <div class="news__slider-author">
+                                Иван Каширин, генеральный директор компании 200 Terabyte
+                            </div>
+                        </div>
+
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Адаптивность
+                            </div>
+                            <div class="news__slider-text">
+                                Более 50% мирового трафика приходится на мобильные устройства, поэтому адаптивность важна. Она позволяет хорошо отображать сайты на любом устройстве.
+                            </div>
+                            <div class="news__slider-author">
+                                Иван Каширин, генеральный директор компании 200 Terabyte
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <a class="news__blog" href="#">
+                    <div class="news__images">
+                        <img src="img/news-1.jpg" alt="">
+                        <div class="news__date">25.06</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Адаптивная верстка
+                    </div>
+                    <div class="news__blog-text">
+                        Страницы «подстраиваются» под размеры экрана. Это подходит для мобильных устройств.
+                    </div>
+                </a>
+
+                <a class="news__blog" href="#">
+                    <div class="news__images">
+                        <img src="img/news-2.jpg" alt="">
+                        <div class="news__date">25.06</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Фиксированная верстка
+                    </div>
+                    <div class="news__blog-text">
+                        Ширина страницы не меняется в зависимости от разрешения и ширины экрана на котором она отображается.
+                    </div>
+                </a>
+
+            </div>
+            <!-- /Содержимое блока news -->
+
+        </div>
+    </section>
+    <!-- /news -->
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer__content">
+            <div class="container">
+
+                <!-- отдельный контейнер для footer__info и footer__map -->
+                <div class="footer__inner">
+
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            Профессиональная верстка сайтов
+                        </div>
+                        <div class="footer__text">
+                            Учитываем все пожелания клиента.
+                        </div>
+
+                        <a class="header__btn" data-fancybox data-src="#modal" href="javascript:;" href="#">
+                            Бесплатная консультация
+                        </a>
+                        <ul class="footer__list">
+                            <li><a class="footer__phone" href="tel: +79304046581">+7 (930) 404-65-81</a></li>
+                            <li><a class="footer__mail" href="mailto: frontend200tb@mail.ru">frontend200tb@mail.ru</a>
+                            </li>
+                            <li><a class="footer__adress" href="#">Воронеж, ул.Адмирала Чурсина, 2</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.355130119281!2d39.29153365103207!3d51.63502107955644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b31ccbcd86d1b%3A0xe369bc8f1e0a9d1a!2z0YPQuy4g0JDQtNC80LjRgNCw0LvQsCDQp9GD0YDRgdC40L3QsCwgMiwg0JLQvtGA0L7QvdC10LYsINCS0L7RgNC-0L3QtdC20YHQutCw0Y8g0L7QsdC7LiwgMzk0MDI4!5e0!3m2!1sru!2sru!4v1624452565176!5m2!1sru!2sru"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- строчка копирайта -->
+        <div class="footer__copy">
+            <div class="container">
+                <div class="copy__text">
+                    © 2021 Иван Каширин - Верстка учебного проекта freepsd
+                </div>
+            </div>
+        </div>
+        <!-- /строчка копирайта -->
+
+    </footer>
+    <!-- /footer -->
+
+
+
+
+
+    <div id="modal">
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+
+
+    <!-- Подключаем библиотеку jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Подключаем плагин FancyBox из библиотеки jQuery -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- Подключаем плагин для слайдера -->
+    <script src="js/slick.min.js"></script>
+    <!-- Подключаем плагин для формы -->
+    <script src="js/jquery.formstyler.min.js"></script>
+    <!-- Подключаем свой файл скриптов -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
