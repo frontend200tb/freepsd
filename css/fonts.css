@@ -1,32 +1,32 @@
 /* Подключаем шрифты с сайта */
 /* roboto-regular - latin_cyrillic */
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v27-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v27-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v27-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v27-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v27-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v27-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v27-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v27-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v27-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v27-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v27-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
 
-  /* roboto-500 - latin_cyrillic */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v27-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v27-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v27-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v27-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v27-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v27-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-  
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v27-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v27-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v27-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v27-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v27-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v27-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
 /* pt-serif-regular - latin_cyrillic */
 @font-face {
   font-family: 'PT Serif';
@@ -40,6 +40,7 @@
        url('../fonts/pt-serif-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/pt-serif-v12-latin_cyrillic-regular.svg#PTSerif') format('svg'); /* Legacy iOS */
 }
+
 /* pt-serif-700 - latin_cyrillic */
 @font-face {
   font-family: 'PT Serif';
@@ -59,9 +60,9 @@
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?z4keyp');
   src:  url('../fonts/icomoon.eot?z4keyp#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?z4keyp') format('truetype'),
-    url('../fonts/icomoon.woff?z4keyp') format('woff'),
-    url('../fonts/icomoon.svg?z4keyp#icomoon') format('svg');
+        url('../fonts/icomoon.ttf?z4keyp') format('truetype'),
+        url('../fonts/icomoon.woff?z4keyp') format('woff'),
+        url('../fonts/icomoon.svg?z4keyp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -85,33 +86,43 @@
 .icon-envelope-o:before {
   content: "\f003";
 }
+
 .icon-check:before {
   content: "\f00c";
 }
+
 .icon-map-marker:before {
   content: "\f041";
 }
+
 .icon-phone:before {
   content: "\f095";
 }
+
 .icon-briefcase:before {
   content: "\f0b1";
 }
+
 .icon-bars:before {
   content: "\f0c9";
 }
+
 .icon-navicon:before {
   content: "\f0c9";
 }
+
 .icon-reorder:before {
   content: "\f0c9";
 }
+
 .icon-angle-left:before {
   content: "\f104";
 }
+
 .icon-angle-right:before {
   content: "\f105";
 }
+
 .icon-quote-right:before {
   content: "\f10e";
 }
